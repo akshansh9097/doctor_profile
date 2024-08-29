@@ -22,7 +22,7 @@
   width: 146px;
   /* height: 120px; */
   top: 8rem;
-  left: 10rem;
+  left: 10%;
   /* bottom: -50px;
   z-index: 1000; */
 }
@@ -92,7 +92,7 @@ opacity: .9;
 }
 .social-icons .line {
   width: 5px;
-  height: 38px;
+  height: 40px;
   background-color: var(--bs-green);
   position: absolute;
   margin-top: -7px;
@@ -207,12 +207,12 @@ opacity: .9;
 .appointment-btn2{
   color: var(--bs-aqua);
   border: 1px solid  var(--bs-aqua);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600
 }
 .patient-rating{
   color: var(--bs-aqua);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
 }
 .stars img {
@@ -385,6 +385,21 @@ background-color: #071f6d;
   border-radius: 19px;
 }
 
+.nav-tabs-carousel .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 10px;
+}
+.owl-carou{
+  max-width: 490px !important;
+}
+
+.owl-carou .owl-item {
+  width: auto !important;
+}
+
 
  
 /* .video-container:hover .thumbnail {
@@ -394,13 +409,19 @@ background-color: #071f6d;
 .video-container:hover iframe {
   display: block;
 } */
- 
+/*  
 
 .owl-carousel .nav-item {
   display: inline-block;
   width: 100%;
-  /* text-align: center; */
-}
+  text-align: center;
+} */
+
+
+
+
+
+
 
 /* .owl-nav .owl-prev, .owl-nav .owl-next {
   position: absolute;
@@ -499,9 +520,9 @@ background-color: #071f6d;
     left: 5rem;
   }
 } */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .overlap-image-container {
-    width: 154px;
+    width: 135px;
     /* height: 120px; */
     top: 9rem;
     left: 1.3rem;
